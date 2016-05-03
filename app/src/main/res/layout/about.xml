@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/SLMasterLayout">
+
+    <ImageView
+        android:id="@+id/bottom_curve"
+        style="@style/SLBottomBar"
+        android:layout_alignParentBottom="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bottom_curve"
+
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.ScanLife.view.SLTextView
+            android:id="@+id/aboutcustom"
+            style="@style/SLTextAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:textColor="@color/text_color_dark_gray"
+            app:customFont="Quicksand_Bold" />
+
+        <include layout="@layout/about_version" />
+
+        <com.ScanLife.view.SLTextView
+            android:id="@+id/aboutcpright"
+            style="@style/SLTextAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color_dark_gray"
+            app:customFont="Quicksand_Bold" />
+
+        <com.ScanLife.view.SLTextView
+            android:id="@+id/aboutsptemail"
+            style="@style/SLLinkText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:customFont="Quicksand_Bold" />
+
+        <include layout="@layout/about_buildid" />
+
+        <com.ScanLife.view.SLTextView
+            android:id="@+id/aboutpoweredby"
+            style="@style/SLTextAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color_dark_gray"
+            app:customFont="Quicksand_Bold" />
+
+        <com.ScanLife.view.SLTextView
+            android:id="@+id/aboutattribution"
+            style="@style/SLLinkText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:customFont="Quicksand_Bold" />
+
+        <com.ScanLife.view.SLTextView
+            android:id="@+id/abouttermsconditions"
+            style="@style/SLLinkText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:customFont="Quicksand_Bold" />
+
+        <com.ScanLife.view.SLTextView
+            android:id="@+id/abouteula"
+            style="@style/SLLinkText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:customFont="Quicksand_Bold" />
+
+        <com.ScanLife.view.SLTextView
+            android:id="@+id/aboutprivacy"
+            style="@style/SLLinkText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:customFont="Quicksand_Bold" />
+    </LinearLayout>
+</RelativeLayout>

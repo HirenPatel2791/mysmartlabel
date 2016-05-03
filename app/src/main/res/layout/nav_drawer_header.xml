@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/nav_header_background"
+    android:id="@+id/navBarHeader">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/headerView">
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/inboxOld"
+            android:src="@drawable/nd_inbox"
+            android:background="@drawable/list_button_selector"
+            android:scaleType="fitCenter"
+            android:baselineAlignBottom="false"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:id="@+id/profile"
+            android:layout_weight="0.62"
+            android:paddingBottom="11dp">
+
+            <ImageView
+                android:layout_width="83dp"
+                android:layout_height="81dp"
+                android:id="@+id/profileImage"
+                android:src="@drawable/female_gray"
+                android:layout_weight="0.07"
+                android:paddingTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="7dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/loginInfo"
+                android:gravity="center_horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Megan Mustbuy"
+                    android:id="@+id/fullName"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_horizontal" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/usernameLogout"
+                    android:baselineAligned="false">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="MeMustbuy"
+                        android:id="@+id/username"
+                        android:textStyle="bold"
+                        android:textColor="@color/nav_header_username" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text=" | "
+                        android:id="@+id/verticleBar"
+                        android:textColor="@color/nav_header_username" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="logout"
+                        android:id="@+id/logout"
+                        android:textColor="@color/nav_header_username"
+                        android:textStyle="italic"
+                        android:background="@drawable/list_button_selector"
+                        android:paddingBottom="-15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/facebook_login"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@android:color/transparent"
+                android:paddingTop="5dp"
+                android:visibility="visible">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="35dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/selector_facebook_button"
+                    android:contentDescription="@string/txt_facebook_login"
+                    android:id="@+id/fbButtonImage"
+                    android:scaleType="fitCenter"
+                    android:layout_centerInParent="true"
+                    android:visibility="visible"
+                    android:text="@string/txt_facebook_login"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.09"
+            android:id="@+id/requiredGap"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="12dp"
+            android:id="@+id/preferencesOld"
+            android:src="@drawable/nd_gear"
+            android:layout_gravity="right|top"
+            android:background="@drawable/list_button_selector"
+            android:scaleType="fitCenter"
+            android:paddingTop="2dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/topLine"
+        android:background="#ff4a5055" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/inboxSettingsView"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/inbox"
+            android:src="@drawable/nd_inbox"
+            android:background="@drawable/list_button_selector"
+            android:scaleType="fitCenter"
+            android:baselineAlignBottom="false"
+            android:padding="10dp" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/verticleLine"
+            android:background="#ff4a5055" />
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/preferences"
+            android:src="@drawable/nd_favorites"
+            android:background="@drawable/list_button_selector"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/bottomLine"
+        android:background="#ff4a5055" />
+
+</LinearLayout>

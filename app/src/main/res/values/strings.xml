@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">SmartLabel_Android</string>
+    <string name="title_activity_scan">Scan</string>
+    <string name="title_activity_about">About SmartLabel</string>
+    <string name="title_activity_favorites">Favorites</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_help">Help</string>>
+    <string name="about_smartlabel">About SmartLabel</string>
+    <string name="title_activity_smartLabel">Smart Label</string>
+
+    <string name="desc_list_item_icon">Item Icon</string>
+
+
+
+    <string name="msg_history_use_cache">No internet connection. Cannot access new history items.</string>
+    <string name="msg_history_empty_detail">You do not currently have any items in this list.</string>
+
+    <!-- fb -->
+    <string name="fb_post_permission">(This won\'t post without your permission.)</string>
+    <string name="fb_welcome_msg">Welcome to ScanLife, </string>
+    <string name="fb_logout_msg">User Logged out of Facebook</string>
+    <string name="txt_fb_share_like_help">Items you "Like" in ScanLife will automatically be shared to your Facebook Timeline.</string>
+    <string name="txt_facebook_options">Facebook Options</string>
+    <string name="txt_facebook_login">Log in with Facebook</string>
+    <string name="text_fb_connect_error">Could not connect to Facebook.</string>
+    <string name="text_fb_permissionerr_message">ScanLife requires access to your Facebook account. Please allow this permission from Settings.</string>
+    <string name="txt_fb_logout_failed">Unable to log out of Facebook. Please check your network connection.</string>
+    <string name="txt_fb_login_successful">Connected to Facebook</string>
+    <string name="txt_fb_login_unsuccessful">Unable to log in to Facebook</string>
+    <string name="txt_fb_logout_successful">Logged out of Facebook</string>
+    <string name="text_fbshare_likes">Post Likes</string>
+    <string name="txt_fb_login_req_setting">Please connect with Facebook before changing this setting.</string>
+    <string name="text_fbshare_likes2">Post Likes on Facebook</string>
+    <string name="title_fb_login_for_likes">Post to Facebook Timeline</string>
+    <string name="msg_fb_login_for_likes">Your Like has been posted. Do you also what to post your Likes to your Facebook Timeline?</string>
+    <string name="cmd_not_now">Not Now</string>
+    <string name="txt_fb_logout_button">Logout</string>
+
+
+    <!-- cmd -->
+    <string name="cmd_2d">2D</string>
+    <string name="cmd_agree">Agree</string>
+    <string name="cmd_disagree">Disagree</string>
+    <string name="cmd_back">Back</string>
+    <string name="cmd_next">Next</string>
+    <string name="cmd_more">More</string>
+    <string name="cmd_exit">Exit</string>
+    <string name="cmd_option">Option</string>
+    <string name="cmd_share_scanlife">Share ScanLife</string>
+    <string name="cmd_update_scanlife">Update ScanLife</string>
+    <string name="cmd_audio_on">Audio(On)</string>
+    <string name="cmd_audio_off">Audio(Off)</string>
+    <string name="cmd_about">About</string>
+    <string name="cmd_help">Help</string>
+    <string name="cmd_cancel">Cancel</string>
+    <string name="cmd_ok">OK</string>
+    <string name="cmd_execute">Execute</string>
+    <string name="cmd_edit">Edit</string>
+    <string name="cmd_delete">Delete</string>
+    <string name="cmd_send">Send</string>
+    <string name="cmd_yes">Yes</string>
+    <string name="cmd_no">No</string>
+    <string name="cmd_done">Done</string>
+    <string name="cmd_start">Start</string>
+    <string name="cmd_select">Select</string>
+    <string name="cmd_scan">Scan</string>
+    <string name="cmd_history">History</string>
+    <string name="cmd_menu">Menu</string>
+    <string name="cmd_play_sound">Play Sound</string>
+    <string name="cmd_save">Save</string>
+    <string name="cmd_settings">Settings</string>
+</resources>

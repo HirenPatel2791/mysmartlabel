@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SLHubItemView">
+        <attr name="horizonalPosition" format="string" />
+    </declare-styleable>
+    <declare-styleable name="SLTextView">
+        <attr name="customFont" format="string" />
+    </declare-styleable>
+    <declare-styleable name="SLTitleBarView">
+        <attr name="showPedal" format="boolean"/>
+        <attr name="pedalType" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="SettingItemView">
+        <attr name="isToggleItem" format="boolean"/>
+        <attr name="isPortalButton" format="boolean"/>
+        <attr name="text" format="string"/>
+    </declare-styleable>
+</resources>

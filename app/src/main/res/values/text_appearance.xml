@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SLTextAppearanceSmall" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_color_dark_gray</item>
+    </style>
+    <style name="SLTextAppearanceSmallBold" parent="@style/SLTextAppearanceSmall">
+        <item name="android:textStyle">bold</item>
+    </style>    
+    <style name="SLTextAppearanceMedium" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_color_dark_gray</item>
+    </style>
+    <style name="SLTextAppearanceMediumBold" parent="@style/SLTextAppearanceMedium">
+        <item name="android:textStyle">bold</item>
+    </style>    
+    <style name="SLTextAppearanceLarge" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_color_dark_gray</item>
+    </style>
+    <style name="SLTextAppearanceLargeBold" parent="@style/SLTextAppearanceLarge">
+        <item name="android:textStyle">bold</item>
+    </style>
+     <style name="SLEditTextAppearance" parent="@style/SLTextAppearanceLarge">
+        <item name="android:textColor">@color/text_color_dark_gray</item>
+    </style>
+    <style name="SLTextAppearanceLargePlus" parent="@android:style/TextAppearance">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/text_color_normal</item>
+    </style>
+    <style name="SLTextAppearanceLargePlusBold" parent="@style/SLTextAppearanceLargePlus">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="SLTextAppearanceXLarge" parent="@android:style/TextAppearance">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/text_color_dark_gray</item>
+    </style>
+    
+    <style name="SLTextAppearanceXLargeBold" parent="@style/SLTextAppearanceXLarge">
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="SLTextAppearanceGiant" parent="@android:style/TextAppearance">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/text_color_dark_gray</item>
+    </style>
+    
+    <style name="SLTextAppearanceGiantBold" parent="@style/SLTextAppearanceGiant">
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- This is a duplicate right now, but in the future we can apply some color effects on buttons -->
+    <style name="SLButtonTextAppearance" parent="@style/SLTextAppearanceMedium">
+        <item name="android:textColor">@color/text_color_dark_gray</item>
+    </style>
+
+    <style name="SettingsText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/settings_text</item>
+    </style>
+</resources>

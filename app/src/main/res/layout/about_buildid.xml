@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><!-- NOTE: There is a copy of this file for Hewbrew language in Atlantis brand. Make sure to sync that file with this one -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.ScanLife.view.SLTextView
+        android:id="@+id/aboutbuildid"
+        style="@style/SLTextAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="15px"
+        android:textColor="@color/text_color_dark_gray"
+        app:customFont="@string/conf_default_font_bold" />
+
+    <com.ScanLife.view.SLTextView
+        android:id="@+id/aboutbuildidvalue"
+        style="@style/SLTextAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_dark_gray"
+        app:customFont="@string/conf_default_font_bold" />
+
+</LinearLayout>
